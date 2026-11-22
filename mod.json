@@ -1,15 +1,15 @@
 {
-  "geode": "5.0.0",
+  "geode": "5.11.2",
   "gd": {
     "win": "2.2081",
     "android": "2.2081",
     "mac": "2.2081",
     "ios": "2.2081"
   },
-  "id": "yourname.click-picker",
+  "id": "Earl12.click-picker",
   "name": "Click Picker",
   "version": "v1.0.0",
-  "developer": "yourname",
+  "developer": "Earl12",
   "description": "Plays a click sound of your choice (20 included) on every jump, including during replay playback.",
   "settings": {
     "enabled": {
