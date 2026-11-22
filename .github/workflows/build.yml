@@ -17,6 +17,7 @@ jobs:
         with:
           sdk: v5.11.2
           bindings-ref: 3e65294e5b68f0124cde08505b9ecbeb2e3d990b
+          configure-args: -DSKIP_BUILDING_CODEGEN=OFF
       - uses: actions/upload-artifact@v4
         with:
           name: Build Output
