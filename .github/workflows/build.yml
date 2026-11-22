@@ -15,7 +15,8 @@ jobs:
         uses: geode-sdk/build-geode-mod@main
         id: build
         with:
-          sdk: nightly
+          sdk: latest
+          bindings-ref: 3e65294e5b68f0124cde08505b9ecbeb2e3d990b
       - uses: actions/upload-artifact@v4
         with:
           name: Build Output
